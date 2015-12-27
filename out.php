@@ -23,7 +23,7 @@ class Out extends Base
 		$access_token = !is_null($_GET[self::$ACCESS]) ? $_GET[self::$ACCESS] : "";
 		$data = array(
 			self::$NAME => $name,
-			self::$EMAIL => $name
+			self::$EMAIL => $email
 			);
 		$this->data($access_token, $data);
 	}
